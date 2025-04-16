@@ -63,5 +63,3 @@ void loop() {
 
   lastBeamState = beamSensorState; // Update last sensor state
 }
-
-// Bridg
