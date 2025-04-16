@@ -64,15 +64,4 @@ void loop() {
   lastBeamState = beamSensorState; // Update last sensor state
 }
 
-// Bridge Light Control Functions
-void lightUpBridge() {
-  for (int i = 0; i < NUM_PIXELS; i++) {
-    bridgeLights.setPixelColor(i, bridgeLights.Color(127, 0, 127)); // Pink color
-  }
-  bridgeLights.show();
-}
-
-void turnOffBridge() {
-  bridgeLights.clear();
-  bridgeLights.show();
-}
+// Bridg
